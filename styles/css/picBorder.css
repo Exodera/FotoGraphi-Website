@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+  .about_image-lg {
+    border: 0.5rem solid #003347;
+  }
+  .exhibitions_gallery article img {
+    border: 0.5rem solid #003347;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .exhibitions_gallery article img {
+    border: 0.5rem solid #003347;
+  }
+}/*# sourceMappingURL=picBorder.css.map */

@@ -1,3 +1,5 @@
+@import './picBorder.scss';
+
 :root {
 	/* ============ GREEN THEME ============ */
 	--color-primary: #ff7b02;
@@ -24,6 +26,7 @@
 
 	--transition: all 400ms ease;
 }
+
 
 * {
 	margin: 0;
@@ -184,6 +187,7 @@ header {
 }
 
 .header_image-lg {
+	
 	width: 29rem;
 	position: relative;
 	top: 1rem;
@@ -360,6 +364,8 @@ header {
 .about_image {
 	position: relative;
 }
+
+
 
 .about_image-bg {
 	width: 16rem;

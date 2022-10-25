@@ -1,0 +1,31 @@
+$picBgColor: #003347;
+
+@mixin picBorder{
+    border: .5rem solid $picBgColor;
+}
+
+@media screen and (max-width: 768px){
+   
+    .about_image-lg {
+        @include picBorder();
+    }
+    
+    // .swiper-slide img{
+    //     @include picBorder(); 
+    // [you can type normal css in here]   
+    // }
+    
+    .exhibitions_gallery article img{
+        @include picBorder();
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .exhibitions_gallery article img{
+        @include picBorder();
+    }  
+}
+
+
+
